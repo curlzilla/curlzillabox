@@ -6,6 +6,6 @@
 
 1. Put the git repo where you intend to run it.
 2. Build the container: docker build -t curzillabox
-3. Run the container: docker run -ti curlzillabox /usr/local/bin/curlzilla https://$YOURTARGETHERE $DELAY $ITERATIONS
+3. Run the container: docker run -ti curlzillabox curlzilla https://$YOURTARGETHERE $DELAY $ITERATIONS
 4. PROFIT. If you're not profiting at the end, you're doing it wrong.
 
